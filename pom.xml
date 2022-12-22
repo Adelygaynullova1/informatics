@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<q:project xmlns:q="http://maven.apache.org/POM/4.0.0"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <q:modelVersion>4.0.0</q:modelVersion>
+
+    <q:groupId>org.example</q:groupId>
+    <q:artifactId>infomatics</q:artifactId>
+    <q:packaging>pom</q:packaging>
+    <q:version>1.0-SNAPSHOT</q:version>
+    <q:modules>
+        <q:module>lab07</q:module>
+        <q:module>lab08</q:module>
+    </q:modules>
+
+    <q:properties>
+        <q:maven.compiler.source>18</q:maven.compiler.source>
+        <q:maven.compiler.target>18</q:maven.compiler.target>
+        <q:project.build.sourceEncoding>UTF-8</q:project.build.sourceEncoding>
+    </q:properties>
+
+</q:project>
